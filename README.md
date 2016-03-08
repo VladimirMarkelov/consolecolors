@@ -17,7 +17,7 @@ There are 7 available colors and brightness attribute, so 16 colors in total.
 * COLOR_YELLOW = 6,
 * COLOR_WHITE = 7,
 * COLOR_BRIGHT = 8
-* 
+ 
 To set a bright color combine color value with attribute **COLOR_BRIGHT**. E.g, bright green is **COLOR_GREEN | COLOR_BRIGHT**
 
 
@@ -46,4 +46,5 @@ Changes only background terminal color. Returns the same error as **console_set_
 I use MinGW to build the library on Windows.
 
 In Linux just run **make** to build the library or **make && cd tests && make** to build the library and its demo
+
 In Windows run **make -f Makefile.win** to build the library.
