@@ -40,7 +40,7 @@ int console_set_fg_color(TerminalInfo* ti, TerminalColor fg);
 int console_set_bg_color(TerminalInfo* ti, TerminalColor bg);
 
 #ifdef __cplusplus
-extern "C" }
+}
 #endif
 
 #endif
